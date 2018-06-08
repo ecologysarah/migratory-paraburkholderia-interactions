@@ -63,7 +63,7 @@ multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
 #Mycelial extension rates
 ##Prepare data for analysis
 ```{r growth_data_prep}
-#Load data
+#Load data - available at DOI: 10.13140/RG.2.2.28699.77602 
 rates<-read.csv("growth-rates-combined.csv")
 summary(rates)
 rates$Replicate<-as.factor(rates$Replicate)
