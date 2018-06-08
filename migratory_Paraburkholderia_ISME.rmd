@@ -297,7 +297,7 @@ Hf16<-mean(rates2$Growth.rate[rates2$Fungus=="Hf1"&rates2$Treatment=="BCC1886"])
 #Migration extent
 ##Prepare data for analysis
 ```{r tracking_data_prep}
-#Load data
+#Load data - available at	DOI: 10.13140/RG.2.2.35410.66245
 tracking<-read.csv("Growth_rates_tracking.csv")
 
 #Rename strains to updated names
